@@ -11,6 +11,9 @@ module.exports = {
         boxShadow: {
           'firm': ['box-shadow: 3px 3px 2px 0px rgba(34, 60, 80, 0.25)'],
         },
+        maxWidth: {
+          '3.1xl' : ['49rem'],
+        }
       },
     },
     plugins: [],
