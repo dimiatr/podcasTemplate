@@ -1,5 +1,9 @@
 module.exports = {
-    content: ["./index.html", "./index2.html"],
+    content: ["./index.html", 
+    "./index2.html",
+    "./index.js",
+    "./node_modules/tw-elements/dist/js/**/*.js"
+  ],
     theme: {
       extend: {
         fontFamily : {
@@ -7,14 +11,19 @@ module.exports = {
         },
         colors: {
           'Champagne': ['#F7EDE8'],
+           'alice_blue': ['#EDF3F7'],
         },
         boxShadow: {
           'firm': ['box-shadow: 3px 3px 2px 0px rgba(34, 60, 80, 0.25)'],
         },
         maxWidth: {
           '3.1xl' : ['49rem'],
-        }
+          '29rem' : ['29rem'],
+        },
+        width: {
+          '576px': ['576px'],
+        },
       },
     },
-    plugins: [],
+    plugins: [require("tw-elements/dist/plugin.cjs")]
   }
