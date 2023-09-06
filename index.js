@@ -1,8 +1,8 @@
-import {
-  Carousel,
-  initTE,
-} from "./node_modules/tw-elements";
+// import {
+//   Carousel,
+//   initTE,
+// } from "tw-elements";
 
-initTE({ Carousel });
+// initTE({ Carousel });
 
-
+// import "tw-elements";
