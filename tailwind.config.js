@@ -15,11 +15,12 @@ module.exports = {
         },
         boxShadow: {
           'firm': ['box-shadow: 3px 3px 2px 0px rgba(34, 60, 80, 0.25)'],
+          'epi': ['box-shadow: 10px 10px 2px 0px rgba(129, 173, 200, 0.25)'],
         },
         maxWidth: {
           '3.1xl' : ['49rem'],
           '29rem' : ['29rem'],
-          '8xl': ['1840px']
+          '8xl': ['1840px'],
         },
         width: {
           '576px': ['576px'],
