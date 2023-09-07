@@ -6,6 +6,9 @@ module.exports = {
   ],
     theme: {
       extend: {
+        spacing : {
+          '32rem': ['32rem'],
+        },
         fontFamily : {
           "main": ['Montserrat'],
         },
@@ -24,6 +27,7 @@ module.exports = {
         },
         width: {
           '576px': ['576px'],
+          '17rem': ['17rem']
         },
       },
     },
