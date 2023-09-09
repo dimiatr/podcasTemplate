@@ -1,6 +1,6 @@
 module.exports = {
     content: ["./index.html", 
-    "./index2.html",
+    "about.html",
     "./index.js",
     "./node_modules/tw-elements/dist/js/**/*.js"
   ],
